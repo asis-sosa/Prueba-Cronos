@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cronos</title>
+    <link rel="stylesheet" href="Cronos_estilo.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="LogoRelojeria.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 10px;">
+        <div style="display: flex; align-items: center;"> 
+            <img src="/imagenes/menu.png" alt="Menu" style="width: 120px; cursor: pointer;">
+            <input type="text" placeholder="Buscar" id="buscar">
+        </div>
+        <div style="margin-left: -150px;">
+            <img src="/imagenes/LogoRelojeria.png" alt="Logo" style="width: 100px; height: 100px;">
+        </div>
+        <div style="display: flex; align-items: center;"> 
+            <a href="login.html">
+                <img src="/imagenes/usuario.png" id="icono_user" alt="User Icon" style="width: 40px; height: 40px; cursor: pointer;">
+            </a>
+            <img src="/imagenes/carrito.png" alt="Shopping Cart" style="width: 100px; cursor: pointer;">
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <div class="carrusel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/imagenes/reloj_para_hombre.jpg" class="d-block w-100" alt="Imagen 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Relojes para Caballero</h5>
+                            <a href="#">→</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/reloj_para_mujer.png" class="d-block w-100" alt="Imagen 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Relojes para Dama</h5>
+                            <a href="#">→</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+            <div class="pagina">
+                <div class="botton">
+                  <button class="boton">DESCUENTOS %</button>
+                </div>
+                <div class="botton">
+                  <button class="boton">POPULARES</button>
+                </div>
+                <div class="botton">
+                  <button class="boton">ACCSESORIOS</button>
+                </div>
+            </div>
+            <div class="relojes">
+
+                <div class="card" >
+                    <img src="/imagenes/reloj_1.jpg" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES DE LUJO</button>
+                </div>
+                <div class="card" >
+                    <img src="/imagenes/reloj_2.jpg" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES VINTAGE</button>
+                </div>
+                <div class="card" >
+                    <img src="/imagenes/reloj_3.jpeg" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES EDICION LIMITADA</button>
+                </div>
+                <div class="card" >
+                    <img src="/imagenes/reloj_4.jpg" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES MULTIFORT</button>
+                </div>
+                <div class="card" >
+                    <img src="/imagenes/reloj_5.webp" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES DEPORTIVOS</button>
+                </div>
+                <div class="card" >
+                    <img src="/imagenes/reloj_6.jpg" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES DEPORTIVOS</button>
+                </div>
+                <div class="card" >
+                    <img src="/imagenes/reloj_7.jpg" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES DEPORTIVOS</button>
+                </div>
+                <div class="card" >
+                    <img src="/imagenes/reloj_8.jpg" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES DEPORTIVOS</button>
+                </div>
+                <div class="card" >
+                    <img src="/imagenes/reloj_9.jpg" alt="imagen ilustrativa">
+                    <button class="btn-reloj">RELOJES DEPORTIVOS</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <footer>
+            <img src="/imagenes/redes_sociales.png" alt="imagen ilustrativa">
+        </footer>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
